@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Current Project: A Sci-Fi Multiplayer FPS"
+title: "An introduction to me and this blog"
 date: 2024-11-19
 categories: [game-development, unreal-engine]
 ---
