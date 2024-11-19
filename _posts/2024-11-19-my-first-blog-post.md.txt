@@ -1,0 +1,19 @@
+---
+layout: single
+title: "My First Blog Post"
+date: 2024-11-19 12:00:00 +0000
+categories: [blog]
+tags: [jekyll, minimal-mistakes, tutorial]
+---
+
+# Welcome to My Blog
+
+This is my first blog post! I'm using Jekyll and the Minimal Mistakes theme to create my blog.
+
+## About Jekyll
+
+Jekyll is a static site generator that's perfect for building blogs and websites from Markdown files.
+
+- Easy to use
+- Fast performance
+- Full control over the design
