@@ -1,3 +1,10 @@
+---
+layout: post
+title: "My Current Project: A Sci-Fi Multiplayer FPS"
+date: 2024-11-19
+categories: [game-development, unreal-engine]
+---
+
 <h1>An Introduction to Me and This Blog</h1>
 
 <h2>Who I Am</h2>
