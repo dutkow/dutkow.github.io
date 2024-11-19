@@ -1,13 +1,10 @@
 ---
 layout: single
-title: "An introduction to me and this blog"
+title: "An introduction to this blog"
 date: 2024-11-19
 categories: [game-development, unreal-engine]
 ---
 
-<h1>An Introduction to Me and This Blog</h1>
-
-<h2>Who I Am</h2>
 <p>Hi, I’m Vince, and I’ve always had a passion for video games. My journey into game development started in my teenage years when I spent hours creating custom scenarios in Age of Empires 2, modifying configuration files in Rome: Total War to make peasants the most powerful warriors in history, and experimenting with the Unreal Development Kit (UDK). To fund my access to UDK and Unreal Tournament 3, I completed countless surveys on sketchy reward sites from the early 2000s. (The things we do for game development, right?) My first digital purchase was Red Orchestra: Ostfront 41-45, which was developed by the winners of the first Make Something Unreal contest.</p>
 
 <p>I’ve always gravitated toward games that offer creativity and flexibility. One of my proudest achievements from my early days was publishing a Star Wars-themed map of a Star Destroyer on Halo 3’s Forge mode. It ended up with over 30,000 downloads—a small achievement, but one that made me realize how powerful game creation tools can be.</p>

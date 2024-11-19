@@ -1,0 +1,41 @@
+---
+layout: single
+title: "My Current Project: A Sci-Fi Multiplayer FPS Built on Unreal Engine’s Lyra Framework"
+date: 2024-11-19
+categories: [game-development, unreal-engine]
+---
+
+<h2>Why This Project?</h2>
+<p>I’m currently developing a sci-fi-themed multiplayer first-person shooter (FPS) using Epic Games' Lyra sample project for Unreal Engine. My goal is to support a relatively high player count—around 12-16 players—and, as a stretch goal, I also aim to integrate vehicular combat into the gameplay.</p>
+
+<h3>Personal Interest</h3>
+<p>This project allows me to work on something that taps into the games I grew up playing. <em>Halo: Combat Evolved</em> was my introduction to the potential of video games, and the Halo series (1-3) shaped my early gaming years. <em>Call of Duty</em> (the original) was the first game I played extensively online, though my 56k connection made for an inconsistent experience. <em>Modern Warfare</em> and <em>Modern Warfare 2</em> later became major influences. Likewise, <em>Battlefield 1942</em> and <em>Battlefield 2</em> introduced me to large-scale multiplayer, and <em>Unreal Tournament 3</em> and <em>Red Orchestra</em> sparked my interest in the Unreal Development Kit (UDK).</p>
+
+<p>These games—along with industry legends like John Carmack, Tim Sweeney, and the development stories of 90s and 2000s FPS games—shaped my desire to create a multiplayer FPS that recaptures some of that magic.</p>
+
+<h3>The Availability of Tools</h3>
+<p>Unreal Engine, paired with the Lyra project, provides an excellent foundation for building a multiplayer FPS. While I’ll need to create custom content, Lyra already sets up much of the infrastructure needed for a match-based shooter. It’s designed as a third-person shooter by default, but transitioning it to first-person is relatively simple and makes it a perfect starting point for my project.</p>
+
+<p>The tools available today for indie developers are incredible. While it’s easy to feel overwhelmed by the maturity of the gaming industry, creating a game reminiscent of late 90s and early 2000s FPS titles has never been more accessible. Unreal Engine offers powerful resources, and the barrier to entry is lower than ever—making it an exciting time to create something unique, even in a highly competitive landscape.</p>
+
+<h3>Alignment with Personal Strengths</h3>
+<p>I’ve been working on hobbyist game development projects for years, and I’m starting to recognize my strengths and areas for growth. I’ve developed procedural first-person weapon animations, bot AI using behavior trees, and even created basic vehicle AI for entering, exiting, and controlling vehicles. About 5-6 years ago, I released a simple game on itch.io called <em>Gunfighters</em>, which was essentially an asset flip but still managed to rack up over 100,000 downloads. Some players shared stories of playing it on school computers, logging hundreds of hours, and even making new friends through the game. While technically simple, it’s rewarding to know I contributed, even in a small way, to the gaming experiences of others.</p>
+
+<h3>Potential for Growth and Marketability</h3>
+<p>Building a multiplayer FPS on top of Lyra offers a valuable opportunity to deepen my understanding of Unreal Engine. I aim to familiarize myself with core systems like Common UI, the Gameplay Ability System, and Unreal’s online subsystems. Networking skills are in high demand, and developing this project will improve my ability to contribute to other multiplayer projects in the future.</p>
+
+<p>While I don’t expect this project to reach commercial success, there’s always a small part of me that holds out hope. My experience with <em>Gunfighters</em> left me with the belief that a low-poly, large-scale multiplayer FPS could find an audience on platforms like Steam. The success of <em>BattleBit Remastered</em> validated this idea, and seeing it do so well made me think: "I could have made that." In an ideal world, my project could be the <em>Halo</em> meets <em>Unreal Tournament 2004</em> equivalent of games like <em>BattleBit Remastered</em> or <em>Ravenfield</em>.</p>
+
+<h2>Technical Challenges</h2>
+
+<h3>Networking</h3>
+<p>I have a basic understanding of Unreal Engine's networking system, including client-server architecture and class replication, but I’m not yet an expert. For this project, I’ll need to significantly improve my networking skills, especially when it comes to handling high player counts and supporting dedicated servers. Thankfully, Lyra provides a solid starting point, but I’ll need to implement efficient custom replication for the game’s logic and ensure smooth multiplayer performance across various network conditions.</p>
+
+<h3>AI</h3>
+<p>Creating bot AI that feels intelligent and responsive will be one of the biggest challenges, particularly when vehicles are involved. I want to fully support bots across all game modes and vehicle types, knowing that having strong AI will allow players to enjoy the game even if the online player base is low. Supporting complex bot interactions with vehicles will require a lot of work, but I believe it’s a worthwhile goal.</p>
+
+<h3>Optimization</h3>
+<p>While my game will use low-poly models, which should help with rendering performance, optimization will still be crucial. High player counts mean a lot of skeletal meshes, and Unreal Engine’s skeletal mesh animation can be performance-heavy. Similarly, managing large numbers of bots with pathfinding, perception, and decision-making logic will be computationally intensive. I’ll need to ensure that the game performs well across different hardware setups while keeping the gameplay smooth and responsive.</p>
+
+<h2>Wrapping Up</h2>
+<p>This project is an exciting opportunity to build something that taps into my personal gaming interests while pushing my development skills to new levels. I’m eager to dive into Unreal Engine’s networking systems and gain more experience with Lyra’s core frameworks. While I’m realistic about the chances of this project becoming fully realized, I’m confident that the experience will make me a better developer. And who knows? Maybe this is the one that finally breaks the mould.</p>
