@@ -1,29 +1,22 @@
----
-layout: post
-title: "An Introduction to This Blog"
-date: 2024-11-19
----
+<h1>An Introduction to Me and This Blog</h1>
 
-## Who I Am
+<h2>Who I Am</h2>
+<p>Hi, I’m Vince, and I’ve always had a passion for video games. My journey into game development started in my teenage years when I spent hours creating custom scenarios in Age of Empires 2, modifying configuration files in Rome: Total War to make peasants the most powerful warriors in history, and experimenting with the Unreal Development Kit (UDK). To fund my access to UDK and Unreal Tournament 3, I completed countless surveys on sketchy reward sites from the early 2000s. (The things we do for game development, right?) My first digital purchase was Red Orchestra: Ostfront 41-45, which was developed by the winners of the first Make Something Unreal contest.</p>
 
-Hi, I’m Vince, and I’ve always had a passion for video games. My journey into game development started in my teenage years when I spent hours creating custom scenarios in *Age of Empires 2*, modifying configuration files in *Rome: Total War* to make peasants the most powerful warriors in history, and experimenting with the Unreal Development Kit (UDK). To fund my access to UDK and *Unreal Tournament 3*, I completed countless surveys on sketchy reward sites from the early 2000s. (The things we do for game development, right?) My first digital purchase was *Red Orchestra: Ostfront 41-45*, which was developed by the winners of the first Make Something Unreal contest.
+<p>I’ve always gravitated toward games that offer creativity and flexibility. One of my proudest achievements from my early days was publishing a Star Wars-themed map of a Star Destroyer on Halo 3’s Forge mode. It ended up with over 30,000 downloads—a small achievement, but one that made me realize how powerful game creation tools can be.</p>
 
-I’ve always gravitated toward games that offer creativity and flexibility. One of my proudest achievements from my early days was publishing a Star Wars-themed map of a Star Destroyer on *Halo 3*’s Forge mode. It ended up with over 30,000 downloads—a small achievement, but one that made me realize how powerful game creation tools can be.
+<p>As life moved on, I veered off course. Though I was interested in computer science, I chose to study economics, which eventually led me to law school and a career as a lawyer. For the last decade, I’ve dabbled in various game development projects, but they’ve been largely intermittent as life got in the way.</p>
 
-As life moved on, I veered off course. Though I was interested in computer science, I chose to study economics, which eventually led me to law school and a career as a lawyer. For the last decade, I’ve dabbled in various game development projects, but they’ve been largely intermittent as life got in the way.
+<p>This year, with a supportive wife and a healthy savings cushion, I’ve decided to take the leap and pursue game development full-time. I know it’s not the most conventional decision, and I’m fully aware it goes against most of the “safe” career advice out there. But after years of being frugal and financially mindful, I believe I’m in a good position to make it work. I’m not in a rush to replace my income anytime soon, and I’m fortunate to have a solid financial runway. This is a long-term journey for me.</p>
 
-This year, with a supportive wife and a healthy savings cushion, I’ve decided to take the leap and pursue game development full-time. I know it’s not the most conventional decision, and I’m fully aware it goes against most of the “safe” career advice out there. But after years of being frugal and financially mindful, I believe I’m in a good position to make it work. I’m not in a rush to replace my income anytime soon, and I’m fortunate to have a solid financial runway. This is a long-term journey for me.
+<h2>The Purpose of this Blog</h2>
+<p>I’m starting this blog for two main reasons: first, to have a space to organize my thoughts, track my progress, and share my experiences; and second, to have something to do while I wait for Visual Studio to compile or a large Git process to finish. I’m not seeking readership—though if I achieve my game dev dreams one day, I think it will be interesting to look back at my early posts and see how far I’ve come.</p>
 
-## Why This Blog
+<p>If nothing else, these posts might become a humorous source of "cringe" down the road. (And in 20 years, maybe even the word "cringe" itself will be cringey.)</p>
 
-I’m starting this blog for two main reasons: first, to have a space to organize my thoughts, track my progress, and share my experiences; and second, to have something to do while I wait for Visual Studio to compile or a large Git process to finish. I’m not seeking readership—though if I achieve my game dev dreams one day, I think it will be interesting to look back at my early posts and see how far I’ve come.
+<h2>My Goals with Unreal Engine</h2>
+<p>Currently, my goal is to become as experienced as possible with Unreal Engine. I’ve been working with it fairly consistently for the past two years, and I’ve published several plugins and assets along the way.</p>
 
-If nothing else, these posts might become a humorous source of "cringe" down the road. (And in 20 years, maybe even the word "cringe" itself will be cringey.)
+<p>At this point, I’m hesitant to declare any project as the dream game I want to release. I’ve worked on enough game development projects to know that many start with big ambitions but don’t always make it to completion. I don’t view any of my abandoned projects as failures—they’re all just stepping stones in the larger journey of personal growth and development.</p>
 
-## My Goals with Unreal Engine
-
-Currently, my goal is to become as experienced as possible with Unreal Engine. I’ve been working with it fairly consistently for the past two years, and I’ve published several plugins and assets along the way.
-
-At this point, I’m hesitant to declare any project as the dream game I want to release. I’ve worked on enough game development projects to know that many start with big ambitions but don’t always make it to completion. I don’t view any of my abandoned projects as failures—they’re all just stepping stones in the larger journey of personal growth and development.
-
-In a future post, I’ll dive into my current project and the vision I have for it, but for now, it’s about building my skills and figuring out where this path will take me.
+<p>In a future post, I’ll dive into my current project and the vision I have for it, but for now, it’s about building my skills and figuring out where this path will take me.</p>
