@@ -1,0 +1,32 @@
+---
+layout: single
+title: "Getting Acquainted with Lyra"
+date: 2024-11-20
+categories: [game-development, unreal-engine]
+---
+  
+<p>I have been playing around with Lyra for roughly a few weeks now. During this period of exploration, I took the approach of modifying lots of Lyra’s base assets and code freely and with reckless disregard for breaking things as there’s a lot to learn with Lyra and I figured most of my “work” from this period would be pretty scrappable. Unreal recently released version 5.5 and with it, some minor Lyra updates. Lyra is pretty complex and until you have some base familiarity with it, I don’t think it’s even possible to make informed decisions about how you want to organize your projects around it.</p>
+
+<h3>Extending Lyra and receiving future updates from Epic</h3>
+<p>I decided that in versioning up to UE 5.5 I should be more mindful about how I modify Lyra going forward. Thus, I started a new project in which I planned to operate as follows:</p>
+<ul>
+    <li>Never modify .uassets directly and instead duplicate them</li>
+    <li>Only modify source code when work-arounds would be impractical</li>
+    <li>Include everything in my own plugins whenever possible</li>
+    <li>Create a project repository on GitHub and be very descriptive with my commit notes, especially when I do anything that diverges from any of the above three rules</li>
+</ul>
+
+<h3>Dedicated servers require a source build</h3>
+<p>Things were going pretty well for a couple days following the above plan until I ran into my first unforeseen obstacle. I know I will want to support dedicated servers with my project so I thought it would be a good idea to do some research on those and get to testing. It turns out in order to package Lyra with dedicated servers you have to use a version of the engine built from source as the version packaged with the launcher doesn’t include the necessary binaries.</p>
+<p>I followed the steps on Epic’s website and was able to successfully build the engine from source, but this started causing me all sorts of issues when I attempted to migrate my work over, and build times are a significant time gate that has prevented me from moving as quickly as I would like.</p>
+
+<h3>My current plan going forward</h3>
+<p>There are numerous guides out there on how to manage Lyra-based projects and obtain future updates from Epic. Epic has not been making incredibly significant changes to Lyra and I’m not as good with version control as I should be, so I’ve decided on the following simple approach:</p>
+<ul>
+    <li>I have created a local repository for my Unreal Engine source build and linked it to Epic’s GitHub.</li>
+    <li>Epic’s GitHub repository for the Unreal Engine includes the source code for Lyra, and due to past migration issues I plan to work directly from this sample project for the time being.</li>
+    <li>This has some obvious disadvantages but for the sake of simplicity, it will allow me to pull updates for future Unreal Engine versions with updates to Lyra’s source code directly.</li>
+    <li>I will create my own repository with GitHub + Git LFS for my project built on top of this Lyra project and rigorously note anything I have changed.</li>
+    <li>Whenever there are UE version updates, I’ll do some investigating to see if there are any especially meaningful changes to Lyra to see if it’s worth carrying over .uasset/Blueprint changes into my existing work.</li>
+    <li>The source code will be automatically updated and I can pretty quickly compare conflicts with changes I have made, so those should be fairly simple to resolve, but I plan to review updates to Blueprints a bit more.</li>
+</ul>
