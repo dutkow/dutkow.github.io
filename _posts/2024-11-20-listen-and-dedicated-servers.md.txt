@@ -1,0 +1,83 @@
+---
+layout: single
+title: "Listen and Dedicated Servers in Unreal Engine"
+date: 2024-11-20
+categories: [game-development, unreal-engine]
+---
+
+<p>Unreal Engine follows a client-server model for networked multiplayer games, meaning there is one authoritative server that controls the game logic and communicates with the connected clients. In this setup, the server is responsible for maintaining the game state and handling important actions like physics calculations, player positions, and interactions, while the clients primarily manage user input and display data.</p>
+
+<h3>Listen Servers vs. Dedicated Servers</h3>
+
+<p>In Unreal, the server players connect to can either be a listen server or a dedicated server. Each has its strengths and weaknesses, and understanding these differences is key to choosing the right solution for your multiplayer game.</p>
+
+<h4>Listen Servers</h4>
+
+<p>A listen server is a server that runs the game while also running client-side logic. In other words, the player who hosts the game is also playing the game, and the game is running on their machine. This type of server is often used for smaller multiplayer sessions, where one player hosts the game for friends or other players to join.</p>
+
+<p><strong>How it works:</strong> In a listen server setup, the host's instance of the game is the authoritative one, and they don’t need to wait for the server to transmit data back to them. Their client directly communicates with the server instance running on the same machine.</p>
+
+<h5>Advantages:</h5>
+<ul>
+  <li>Easier to set up: You don't need to package separate server and client builds, and no additional software is required to run a listen server.</li>
+  <li>Low cost: Since the game is running on the host's machine, there are no ongoing server hosting costs.</li>
+</ul>
+
+<h5>Disadvantages:</h5>
+<ul>
+  <li>Performance: As the host is running both the server and the client, performance can be limited. This setup doesn’t scale well for larger games or high player counts.</li>
+  <li>Scalability: As more players join, the host’s system may struggle to handle both running the game and managing network traffic.</li>
+</ul>
+
+<h4>Dedicated Servers</h4>
+
+<p>A dedicated server is a server instance that runs only the necessary server-side logic and does not include any client-side gameplay. It is often hosted on a machine that is separate from the game clients, and it handles all of the game logic while broadcasting updates to the clients.</p>
+
+<p><strong>How it works:</strong> Dedicated servers do not run the game’s client-side visuals. Instead, they process game logic and transmit this data to clients. The server is "dedicated" to this task, allowing it to run more efficiently, handle larger player counts, and provide better performance than listen servers.</p>
+
+<h5>Advantages:</h5>
+<ul>
+  <li>Better Performance: Since dedicated servers don’t have to handle client-side gameplay, they can handle more players and process data more efficiently, leading to a better experience in larger multiplayer games.</li>
+  <li>Persistence: Dedicated servers can be left running continuously, enabling long-term, persistent multiplayer sessions or larger-scale competitive play.</li>
+</ul>
+
+<h5>Disadvantages:</h5>
+<ul>
+  <li>Technical Complexity: Setting up a dedicated server can require more technical expertise, especially when configuring the server, managing server files, and handling issues like network security.</li>
+  <li>Cost: Running a dedicated server typically incurs costs, either through third-party hosting services or the need for powerful hardware on your own machine.</li>
+  <li>Requires Special Packaging: Unreal Engine requires you to create a dedicated server build, which is separate from the client build, often requiring a source build of Unreal Engine for custom modifications.</li>
+</ul>
+
+<h3>Dedicated vs. Listen Servers: Choosing the Right Option for Your Game</h3>
+
+<p>When designing your game, you may find that there are specific scenarios where one type of server is more appropriate than the other. However, it is entirely possible to support both server types in the same game, depending on the needs of your players.</p>
+
+<h5>Use Case for Listen Servers:</h5>
+<p>If you’re making a game that focuses on smaller-scale multiplayer sessions, like a cooperative game with friends or a casual online mode, listen servers are an excellent option. They’re easier to set up and don't require hosting infrastructure or additional costs. Listen servers are ideal for games where network performance isn't a critical issue, such as a low player count or turn-based mechanics.</p>
+
+<h5>Use Case for Dedicated Servers:</h5>
+<p>If your game needs to support larger player counts, persistent worlds, or competitive modes, dedicated servers are a better fit. Dedicated servers provide better performance, scalability, and reliability. They're ideal for more complex multiplayer games that require a high level of performance or ongoing, persistent multiplayer worlds. However, this comes with additional complexity and potentially higher costs.</p>
+
+<h5>Why Use Both?</h5>
+<p>Many games—especially those with both casual and competitive elements—benefit from allowing both server types. For example, games like Unreal Tournament 2004 allowed players to host either listen servers or dedicated servers directly from the in-game interface. This flexibility gave players the option to host smaller games with friends or use dedicated servers for large, high-performance sessions.</p>
+
+<p>This is the host game screen from Unreal Tournament 2004, which shows how both listen and dedicated servers could be initialized directly in-game.</p>
+
+<!-- Insert Image with Link to GitHub Directory Asset -->
+<p>![Unreal Tournament 2004 Host Game Screen](dutkow.github.io\assets\images\UT2004HostScreen.jpg)</p>
+
+<h3>Considerations for Your Project</h3>
+
+<p>When deciding whether to use listen servers, dedicated servers, or both in your own project, consider the following:</p>
+
+<ul>
+  <li><strong>Player Experience:</strong> If your game is designed for small, casual play, listen servers may suffice, as they’re simple to set up and require minimal infrastructure. However, if you're aiming for a competitive environment or need a server that can handle many players simultaneously, you may want to lean towards dedicated servers.</li>
+  <li><strong>Server Maintenance:</strong> Dedicated servers require ongoing maintenance, either through third-party hosting services or by managing your own hardware. This could involve regular server restarts, patching, and handling technical issues. If you prefer a simpler, more hands-off approach, listen servers may be a better fit.</li>
+  <li><strong>Long-Term Plans:</strong> Consider your game's long-term multiplayer needs. If you're planning for persistent online worlds or want to guarantee a stable experience for all players, dedicated servers might be the way to go. However, if you’re focusing on smaller, more flexible play sessions, listen servers could be the better option.</li>
+</ul>
+
+<p>For my own project, I plan to take a hybrid approach, following a model similar to Unreal Tournament 2004. I intend to offer both listen servers for casual play with friends and dedicated servers for performance-intensive, competitive sessions. This way, players can host their own games when they want to play informally, but dedicated servers will ensure the game can scale for competitive matches and larger player counts.</p>
+
+<h3>Final Thoughts</h3>
+
+<p>Choosing between listen servers and dedicated servers isn’t always a straightforward decision—it depends on your game’s design and what type of experience you want to offer players. Both server types have their place in multiplayer games, and in some cases, supporting both could give players the best of both worlds. As you develop your game, take the time to assess your project’s specific needs and goals to determine which solution works best for you.</p>
