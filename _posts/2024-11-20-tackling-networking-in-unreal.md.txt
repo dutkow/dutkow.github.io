@@ -1,0 +1,38 @@
+---
+layout: single
+title: "Tackling Networking in Unreal: A Roadmap for Learning"
+date: 2024-11-20
+categories: [game-development, unreal-engine, networking]
+---
+
+<p>As I dive deeper into my current Unreal Engine project, one of the most significant technical hurdles I foresee is mastering networking—particularly how it's implemented within Unreal. At first, it might seem overwhelming to dive into the granular details of Unreal's networking model. That's why I plan to focus initially on understanding the high-level concepts and tools that will enable me to create multiplayer environments with acceptable performance for my project's needs. Once I have a solid grasp of these broader concepts, I believe it will be easier to explore the more intricate details of Unreal's networking systems as needed, both to be able to customize things for my specific needs and to satisfy my own curiosity.</p>
+
+<p>To guide my learning, I’ve outlined a rough roadmap of key networking concepts in Unreal Engine that I aim to explore in more depth. I plan to conduct research into these areas and periodically share what I’ve learned through blog posts.</p>
+
+<h3>High-Level Concepts</h3>
+<ul>
+    <li>Client-server model: Listen vs. dedicated servers</li>
+    <li>Replication</li>
+    <li>Gameplay Framework Classes</li>
+    <li>Remote Procedure Calls (RPCs)</li>
+    <li>Actor Ownership</li>
+    <li>Client-side prediction</li>
+    <li>Actor Role vs. Remote Role</li>
+    <li>NetDriver</li>
+</ul>
+
+<h3>Session Management</h3>
+<ul>
+    <li>Session management in Unreal Engine</li>
+    <li>Traveling</li>
+    <li>Online subsystems</li>
+    <li>Matchmaking</li>
+</ul>
+
+<h3>Optimization</h3>
+<ul>
+    <li>Actor relevancy and priority</li>
+    <li>Dormancy</li>
+    <li>Replication graph</li>
+    <li>Network profiler</li>
+</ul>
